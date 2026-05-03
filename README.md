@@ -175,7 +175,8 @@ Customer lifetime
 
 ## 📊 Databricks Visualizations
 
-![Uploading ea9fe1a6-f0b1-45b3-abda-afaae76efee6.png…]()
+<img width="1815" height="938" alt="Capture d&#39;écran 2026-05-03 172043" src="https://github.com/user-attachments/assets/546ced5e-4703-49d5-8b11-f085923cafd6" />
+
 
 Revenue trends over time
 Top-performing products
