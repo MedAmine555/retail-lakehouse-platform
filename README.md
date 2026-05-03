@@ -1,3 +1,4 @@
+<img width="1815" height="938" alt="ea9fe1a6-f0b1-45b3-abda-afaae76efee6" src="https://github.com/user-attachments/assets/33f27d7b-0afa-4934-bcc0-e8f567513bbb" />
 #  Unified Retail Lakehouse Platform
 
 ## End-to-End Data Engineering Project (Databricks + Delta Lake)
@@ -148,109 +149,42 @@ It demonstrates the ability to move from raw data to reliable business insights 
 
 ### 🔁 End-to-End Pipeline Orchestration
 
-![Pipeline Workflow](./docs/pipeline_workflow.png)
+<img width="1822" height="1120" alt="Capture d&#39;écran 2026-05-03 172306" src="https://github.com/user-attachments/assets/70e517e7-a509-419d-a8a9-37971723261e" />
 
-* Orchestrated using Databricks Workflows
-* End-to-end execution: Bronze → Silver → Gold
-* Parallel ingestion and transformation tasks
+Orchestrated using Databricks Workflows
+End-to-end execution: Bronze → Silver → Gold
+Parallel ingestion and transformation tasks
 
----
 
-### 🟡 Gold Layer — Fact Table (Sales)
+## 🟡 Gold Layer — Fact Table (Sales)
 
-![Gold Fact Sales](./docs/gold_fact_sales.png)
+<img width="1904" height="836" alt="f15927a0-086e-40b1-8a89-782c2f32306d" src="https://github.com/user-attachments/assets/422f9bea-df05-46af-84bf-1eb1fcb892de" />
 
-* Final business-ready dataset
-* Includes enriched fields (customer, product, category)
-* Supports analytical queries and reporting
+Final business-ready dataset
+Includes enriched fields (customer, product, category)
+Supports analytical queries and reporting
 
----
+## 👤 Gold Layer — Customer Performance
 
-### 👤 Gold Layer — Customer Performance
+<img width="1860" height="585" alt="9d4444ad-ffce-474a-a33d-ff19465564b8" src="https://github.com/user-attachments/assets/a92fe652-664c-4474-9eca-c50d5213c0d0" />
 
-![Customer Performance](./docs/customer_performance.png)
+Aggregated customer metrics:
 
-* Aggregated customer metrics:
+Total revenue
+Total orders
+Customer lifetime
 
-  * Total revenue
-  * Total orders
-  * Customer lifetime
+## 📊 Databricks Visualizations
 
----
+![Uploading ea9fe1a6-f0b1-45b3-abda-afaae76efee6.png…]()
 
-### 📊 Databricks Visualizations
+Revenue trends over time
+Top-performing products
+Revenue by category
+Built directly using Databricks SQL visualizations
 
-![Dashboard](./docs/dashboard.png)
 
-* Revenue trends over time
 
-* Top-performing products
 
-* Revenue by category
-
-* Built directly using Databricks SQL visualizations
-
----
-## ▶️ How to Run
-
-### 1. Setup Environment
-
-* Create a Databricks workspace
-* Configure access to Azure Data Lake Storage Gen2 (simulated or mounted storage)
-
----
-
-### 2. Load Data into ADLS (Simulated)
-
-* Upload ERP (CSV) and CRM (JSON) files into the data lake
-* Organize data by source (e.g., `/erp/`, `/crm/`)
-
----
-
-### 3. Run Ingestion (Bronze Layer)
-
-* Execute ingestion notebooks:
-
-  * Batch ingestion for CSV files
-  * Auto Loader (`cloudFiles`) for JSON data
-
----
-
-### 4. Run Transformations (Silver Layer)
-
-* Clean and standardize data:
-
-  * Handle nulls
-  * Deduplicate records
-  * Cast data types
-* Join datasets across sources
-
----
-
-### 5. Build Business Layer (Gold)
-
-* Execute Gold notebooks to create:
-
-  * `gold_daily_sales`
-  * `gold_customer_360`
-  * `gold_product_performance`
-
----
-
-### 6. Run Orchestration
-
-* Trigger Databricks Workflow:
-
-  * Executes full pipeline (Bronze → Silver → Gold)
-  * Ensures automated and repeatable runs
-
----
-
-### 7. Explore Analytics
-
-* Query Gold tables using Databricks SQL
-* Use built-in visualizations to explore KPIs
-
----
 
 
