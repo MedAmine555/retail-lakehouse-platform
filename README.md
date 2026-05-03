@@ -3,6 +3,7 @@
 ## End-to-End Data Engineering Project (Databricks + Delta Lake)
 
 > Designed and implemented a scalable lakehouse architecture to integrate ERP, CRM, and relational data into a unified analytics platform.
+> Built as an end-to-end data engineering pipeline simulating real-world retail data integration on Databricks.
 
 ---
 
