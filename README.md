@@ -17,7 +17,8 @@ This project demonstrates how to design and build a **Lakehouse architecture on 
 ## 🧱 Architecture
 
 
-<img width="1536" height="1024" alt="ChatGPT Image 3 mai 2026, 17_14_00" src="https://github.com/user-attachments/assets/a5ab7cef-d238-4b4e-b246-37a5cf43ec6e" />
+<img width="1536" height="1024" alt="b1b66313-5117-4e6a-8b42-7c825ddf9622" src="https://github.com/user-attachments/assets/755e8dc2-240d-487a-8466-3138ba5a9639" />
+
 
 
 ## ⚙️ Tech Stack
