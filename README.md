@@ -16,9 +16,7 @@ This project demonstrates how to design and build a **Lakehouse architecture on 
 
 ## 🧱 Architecture
 
-
-<img width="1536" height="1024" alt="51f75142-a972-4e2b-a6b8-03a4829e3d38" src="https://github.com/user-attachments/assets/213e166c-b5a9-438c-a145-77f8e9944237" />
-
+<img width="1439" height="956" alt="Capture d&#39;écran 2026-05-03 175616" src="https://github.com/user-attachments/assets/ef3d3f55-0d0c-405c-a363-bf599e37f253" />
 
 
 
