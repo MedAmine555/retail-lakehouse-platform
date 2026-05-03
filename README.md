@@ -1,4 +1,3 @@
-<img width="1815" height="938" alt="ea9fe1a6-f0b1-45b3-abda-afaae76efee6" src="https://github.com/user-attachments/assets/33f27d7b-0afa-4934-bcc0-e8f567513bbb" />
 #  Unified Retail Lakehouse Platform
 
 ## End-to-End Data Engineering Project (Databricks + Delta Lake)
