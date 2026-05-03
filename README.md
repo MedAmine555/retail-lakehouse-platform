@@ -33,6 +33,8 @@ This project demonstrates how to design and build a **Lakehouse architecture on 
 | Transformations | Spark SQL                             |
 | Orchestration   | Databricks Workflows                  |
 | Serving Layer   | Databricks SQL & Visualizations       |
+| Data Modeling   | Star Schema (Fact & Dimension Design) |
+
 
 ---
 ## 🧠 Key Engineering Decisions
