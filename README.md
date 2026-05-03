@@ -119,6 +119,71 @@ This project demonstrates how to design and build a **Lakehouse architecture on 
   * Customer activity
 
 **Goal:** Enable analytics and reporting
+
+## 🧩 Data Modeling (Star Schema)
+
+The Gold layer is designed using a **Star Schema** to support analytical queries and reporting.
+
+### ⭐ Fact Table
+
+**`gold_fact_sales`**
+
+* `order_id`
+* `order_date`
+* `customer_id`
+* `product_id`
+* `quantity`
+* `unit_price`
+* `total_amount`
+
+➡️ Contains transactional data at the order level
+
+---
+
+### 📐 Dimension Tables
+
+**`dim_customer`**
+
+* `customer_id`
+* `customer_name`
+* `loyalty_tier`
+
+**`dim_product`**
+
+* `product_id`
+* `product_name`
+* `category`
+
+**`dim_date`**
+
+* `date`
+* `year`
+* `month`
+
+➡️ Provide descriptive context for analysis
+
+---
+
+### 🔗 Relationships
+
+* `fact_sales.customer_id → dim_customer.customer_id`
+* `fact_sales.product_id → dim_product.product_id`
+* `fact_sales.order_date → dim_date.date`
+
+---
+
+### 🎯 Purpose
+
+This model enables:
+
+* Efficient aggregation (revenue, orders, KPIs)
+* Simplified querying for analytics
+* Clear separation between facts and dimensions
+
+---
+
+
+
 ## 🚀 Why This Project Matters
 
 This project reflects real-world data engineering challenges:
