@@ -62,7 +62,7 @@ This project demonstrates how to design and build a **Lakehouse architecture on 
   * Null handling
   * Deduplication
   * Data type standardization
-  * Joins across ERP and CRM datasets
+  * Key standardization 
 
 * **Business-driven Gold layer design**
   Built curated tables (`gold_daily_sales`, `gold_customer_360`, `gold_product_performance`) aligned with analytics use cases.
@@ -101,10 +101,8 @@ This project demonstrates how to design and build a **Lakehouse architecture on 
 
   * Column naming
   * Data types
+  * Keys
 
-* Data integration:
-
-  * Joined ERP and CRM datasets
 
 **Goal:** Produce reliable and consistent datasets
 ## 🟡 Gold Layer (Business KPIs)
